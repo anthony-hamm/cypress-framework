@@ -1,0 +1,10 @@
+{
+    "urls": {
+        "baseUrl": "https://aloware.com/",
+        "signUpUrl": "https://app.aloware.com/signup"
+    },
+    "users": {
+        "wfcUser": "test.user@gmail.com",
+        "wfcPassword": "Password123.!"
+    }
+}
