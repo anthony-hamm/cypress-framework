@@ -5,8 +5,8 @@
   "description": "cypress framework",
   "main": "index.js",
   "scripts": {
-    "cypress:wfc": "cypress open --env name=wfc --config  viewportWidth=1920,viewportHeight=1080 --config-file ./cypress.config.wfc.cjs",
-    "browserstack:wfc": "browserstack-cypress run --sync --cf ./browserstack-wfc/browserstack.json --env name=wfc --config retries=1,viewportWidth=1920,viewportHeight=1080 --ccf ./cypress.config.wfc.cjs",
+    "cypress:wfc": "cypress open --env name=test --config  viewportWidth=1920,viewportHeight=1080 --config-file ./cypress.config.test.cjs",
+    "browserstack:wfc": "browserstack-cypress run --sync --cf ./browserstack-test/browserstack.json --env name=test --config retries=1,viewportWidth=1920,viewportHeight=1080 --ccf ./cypress.config.test.cjs",
     "merge-reports": "jrm ./reports/final-report.xml './build_artifacts/**/**/**/reports/**.xml' && rm -rf ./build_artifacts",
     "posttest": "npm run merge-reports",
     "lint": "eslint .",

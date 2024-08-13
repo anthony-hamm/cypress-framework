@@ -7,7 +7,7 @@ const e2eConfig = {
   baseUrl: 'https://aloware.com/',
   defaultCommandTimeout: 40000,
   chromeWebSecurity: false,
-  specPattern: ['cypress/e2e/WFC/**.spec.js'],
+  specPattern: ['cypress/e2e/Test/**.spec.js'],
   responseTimeout: 100000,
   setupNodeEvents(on, config) {
     browserstackTestObservabilityPlugin(on, config)

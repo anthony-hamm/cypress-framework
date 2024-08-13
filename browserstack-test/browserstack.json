@@ -14,7 +14,7 @@
   ],
   "run_settings": {
     "cypress_version": "13.6.4",
-    "project_name": "Workforce Center",
+    "project_name": "Test",
     "parallels": 4,
     "headless": true,
     "downloads": [
@@ -24,7 +24,7 @@
     "network_logs": true,
     "enforce_settings": true,
     "specs": [
-      "./cypress/e2e/WFC/**.spec.js"
+      "./cypress/e2e/Test/**.spec.js"
     ],
     "baseUrl": "https://aloware.com/",
     "video": true,
@@ -47,7 +47,7 @@
   "testObservability": false,
   "browserstackAutomation": true,
   "testObservabilityOptions": {
-    "projectName": "Workforce Center",
+    "projectName": "Test",
     "buildName": "Nightly"
   },
   "connection_settings": {
