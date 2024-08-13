@@ -1,4 +1,4 @@
-import SignUpActions from '../../pageobjects/WFC/signupObjects/signup_actions'
+import SignUpActions from '../../pageobjects/Test/signupObjects/signup_actions'
 
 const signUp = new SignUpActions()
 

@@ -1,7 +1,7 @@
-import HomepageActions from '../../pageobjects/WFC/homepageObjects/homepage_actions'
-import SignUpActions from '../../pageobjects/WFC/signupObjects/signup_actions'
-import ContactCenterActions from '../../pageobjects/WFC/contactCenterSoftwareObjects/contactCenter_actions'
-import CloudPhoneSystemActions from '../../pageobjects/WFC/cloudPhoneSystemObjects/cloudPhoneSystem_actions'
+import HomepageActions from '../../pageobjects/Test/homepageObjects/homepage_actions'
+import SignUpActions from '../../pageobjects/Test/signupObjects/signup_actions'
+import ContactCenterActions from '../../pageobjects/Test/contactCenterSoftwareObjects/contactCenter_actions'
+import CloudPhoneSystemActions from '../../pageobjects/Test/cloudPhoneSystemObjects/cloudPhoneSystem_actions'
 
 const homepage = new HomepageActions()
 const signup = new SignUpActions()
